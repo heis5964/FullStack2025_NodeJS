@@ -4,7 +4,7 @@
 2.สร้าง Repository
   2.1)คลิกไอคอน New
 3.Repository name ระบุ ดังนี้
-  3.1)FullStack2025_NextJS_mongodb
+  3.1)FullStack2025NextJSmongoDB
   3.2)Description
   3.3)เรียนออนไลน์ผ่านระบบZOOM Node.js,Express,MongoDB,NextJS
   3.4)คลิกเลือกแบบ Public
