@@ -1,0 +1,57 @@
+ขั้นตอนการเรียนNodeJS
+0)กดปุ่มwindows+ตัวนอน = `
+0)คำสั่งrun -->node server
+0)คำสั่งrun -->node --watch server เมื่อแก้ไขโค๊ดจะrunให้ทันที
+1.สร้างไฟล์ noseServer.js
+2.เปิดเว็บไซต์ Express
+  2.1ติดตั้ง Express
+     2.1.1ยกเลิกการrun server โดยการกดปุ่ม Control+C 
+     2.1.2พิมพ์-->npm init
+          2.1.2.1กดปุ่มEnterไปเรื่อยๆจนจบ
+          2.1.2.2ระบบจะสร้างไฟล์ package.json ให้
+     2.2.3พิมพ์-->npm i express --save
+          2.2.3.1ระบบจะเพิ่มdependenciesในไฟล์package.json
+                 "dependencies": {
+                    "express": "^4.21.2"
+                 }
+          2.2.3.2ระบบจะสร้างโฟลเดอร์node_modules
+          2.2.3.3ระบบจะสร้างไฟล์package-lock.json 
+3.สร้างไฟล์ server.js 
+  3.1เขียนโค๊ด
+  3.2run server พิมพ์-->node server
+4.HTTP Method /books มี 5 แบบที่นิยมดังนี้
+  4.1)GET:       /books              -->Lists all the books in the database
+  4.2)DELETE:    /books/{bookId}     -->Deletes a book based on their id
+  4.3)POST:      /books              -->Create book
+  4.4)PUT:       /books/{bookId}     -->Method to update a book
+  4.5)GET:       /books/{bookId}     -->Retrieves a book based on their id 
+5.HTTP Methods สรุปดังนี้
+  5.1)C --> Create  --> POST
+  5.2)R --> Read    --> GET
+  5.3)U --> PUT     --> PUT
+  5.4)D --> Delete  --> DELETE
+6.bodypaser เพื่อให้รับข้อมูลแบบ post ในการกรอกข้อมูลผ่านฟอร์ม
+  6.1)ติดตั้ง -->npm i body-parser 
+  6.2)เปิดไฟล์package.jso ระบบจะติดตั้งให้ดังนี้
+        "dependencies": {
+            "body-parser": "^1.20.3",
+            "express": "^4.21.2"
+        }
+      6.2.1)เปิดไฟล์server.js
+      6.2.2)กำหนดตัวแปร  const bodyParser = require('body-parser')
+      6.2.3)และ         app.use(bodyParser.urlencoded({ extended: false }))
+      6.2.4)และ         app.use(bodyParser.json())
+      6.2.5)สร้าง-->HTTP Method-->POST-->/hello
+      6.2.6)สร้าง-->HTTP Method-->PUT-->/myPut
+      6.2.7)สร้าง-->HTTP Method-->DELETE-->/myDelete
+7.File System ใช้สำหรับการอ่าน/เขียนไฟล์
+  7.1)const fs = require('fs')
+  7.2)สร้าง-->GET-->/writeFile
+  7.3)ยิง API-->GET-->http://localhost:3001/writeFile
+  7.4)ระบบจะสร้างไฟล์ test.txt มาให้
+  7.5)สร้าง-->GET-->/readFile
+  7.6)ยิง API-->GET-->http://localhost:3001/readFile
+  7.7)ระบบจะส่งคำว่า "Hello World" ที่อยู่ในไฟล์ test.txt
+  END EP.3
+8.การขึ้นGITHUB
+  8.1

@@ -1,0 +1,31 @@
+ขั้นตอนการนำโค๊ดขึ้นGithub
+1.เปิดเว็บไซด์ Github 1)https://github.com/
+  1.1)Login เข้าระบบ
+2.สร้าง Repository
+  2.1)คลิกไอคอน New
+3.Repository name ระบุ ดังนี้
+  3.1)2025_NextJS_mongodb
+  3.2)Description
+  3.3)เรียนออนไลน์ผ่านระบบZOOM Node.js,Express,MongoDB,NextJS
+  3.4)คลิกเลือกแบบ Public
+  3.5)คลิกปุ่ม Create repository
+4.การนำ code ขึ้น github
+  4.1)เปิดหน้าต่าง Terminal
+  4.2)เลือกแบบ Command Prompt(cmd)
+  4.2)พิมพ์คำสั่ง git status
+  4.3)พิมพ์คำสั่ง git init    (เริ่มต้นการสร้างโฟลเดอร์)
+  4.4)พิมพ์คำสั่ง git add .   (เอาไฟล์ทั้งหมดใส่ในgitในเครื่องของเราก่อน)
+  4.5)พิมพ์คำสั่ง git commit -m "EP:day3_nodejs_basic 1" (เป็นการระบุรายละเอียดว่าเราทำอะไร)
+  4.6)พิมพ์คำสั่ง git remote add origin https://github.com/heis5964/FullStack2025_NextJS_mongodb.git (เป็นการระบุที่จุดหมายที่อยู่ของcodeที่เรานำขึ้นบนgithub เป็นการเชื่อมโยง Repository ที่เราสร้างขึ้นมา )
+  4.7)พิมพ์คำสั่ง git push --set-upstream origin master 
+5.การนำ code ขึ้น github ครั้งต่อไป
+  5.1)git status
+  5.2)git add .
+  5.3)git commit -m "EP:day3_nodejs_basic"
+  5.4)git push
+=================================
+  5.1)คลิกที่ไอคอล Source Control(Ctrl+Shift+G G)
+  5.2)พิมพ์รายละเอียดที่เราทำอะไรหรือปรับปรุงแก้ไขโค๊ดในวันนี้
+  5.3)คลิกปุ่ม commit
+  5.4)คลิกปุ่ม Sync Changes
+  5.5)คลิกปุ่ม Ok ที่หน้าต่างแสดงเพื่อยืนยันการนำขึ้นgithub
