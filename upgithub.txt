@@ -4,7 +4,7 @@
 2.สร้าง Repository
   2.1)คลิกไอคอน New
 3.Repository name ระบุ ดังนี้
-  3.1)2025_NextJS_mongodb
+  3.1)FullStack2025_NextJS_mongodb
   3.2)Description
   3.3)เรียนออนไลน์ผ่านระบบZOOM Node.js,Express,MongoDB,NextJS
   3.4)คลิกเลือกแบบ Public
@@ -12,11 +12,12 @@
 4.การนำ code ขึ้น github
   4.1)เปิดหน้าต่าง Terminal
   4.2)เลือกแบบ Command Prompt(cmd)
-  4.2)พิมพ์คำสั่ง git status
-  4.3)พิมพ์คำสั่ง git init    (เริ่มต้นการสร้างโฟลเดอร์)
-  4.4)พิมพ์คำสั่ง git add .   (เอาไฟล์ทั้งหมดใส่ในgitในเครื่องของเราก่อน)
-  4.5)พิมพ์คำสั่ง git commit -m "EP:day3_nodejs_basic 1" (เป็นการระบุรายละเอียดว่าเราทำอะไร)
+  4.3)พิมพ์คำสั่ง git status
+  4.4)พิมพ์คำสั่ง git init    (เริ่มต้นการสร้างโฟลเดอร์)
+  4.5)พิมพ์คำสั่ง git add .   (เอาไฟล์ทั้งหมดใส่ในgitในเครื่องของเราก่อน)
+  4.6)พิมพ์คำสั่ง git commit -m "EP:day3_nodejs_basic 1" (เป็นการระบุรายละเอียดว่าเราทำอะไร)
   4.6)พิมพ์คำสั่ง git remote add origin https://github.com/heis5964/FullStack2025_NextJS_mongodb.git (เป็นการระบุที่จุดหมายที่อยู่ของcodeที่เรานำขึ้นบนgithub เป็นการเชื่อมโยง Repository ที่เราสร้างขึ้นมา )
+  4.7)พิมพ์คำสั่ง git push
   4.7)พิมพ์คำสั่ง git push --set-upstream origin master 
 5.การนำ code ขึ้น github ครั้งต่อไป
   5.1)git status
