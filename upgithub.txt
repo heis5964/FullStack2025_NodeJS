@@ -22,7 +22,7 @@
 5.การนำ code ขึ้น github ครั้งต่อไป
   5.1)git status
   5.2)git add .
-  5.3)git commit -m "EP_day4_nodejs_..."
+  5.3)git commit -m "EP_day4_nodejs_basic"
   5.4)git push
 =================================
   5.1)คลิกที่ไอคอล Source Control(Ctrl+Shift+G G)

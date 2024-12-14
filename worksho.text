@@ -2,6 +2,8 @@
 0)กดปุ่มwindows+ตัวนอน = `
 0)คำสั่งrun -->node server
 0)คำสั่งrun -->node --watch server เมื่อแก้ไขโค๊ดจะrunให้ทันที
+=====================================================
+Start-->EP_day3_nodejs_basic
 1.สร้างไฟล์ noseServer.js
 2.เปิดเว็บไซต์ Express
   2.1ติดตั้ง Express
@@ -53,3 +55,4 @@
   7.6)ยิง API-->GET-->http://localhost:3001/readFile
   7.7)ระบบจะส่งคำว่า "Hello World" ที่อยู่ในไฟล์ test.txt
   END EP.3
+  =====================================================
